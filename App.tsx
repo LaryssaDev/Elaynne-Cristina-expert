@@ -137,7 +137,7 @@ const App: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             
             {/* Texto Quem Sou Eu */}
-            <div className="order-2 lg:order-1">
+            <div className="order-2 lg:order-2">
               <div className="relative">
                 <div className="absolute -left-4 -top-4 w-20 h-20 bg-brand-accent/20 rounded-full blur-2xl"></div>
                 <h2 className="font-serif text-3xl lg:text-4xl font-bold text-brand-dark relative z-10 mb-4">
@@ -174,7 +174,7 @@ const App: React.FC = () => {
             </div>
 
              {/* Foto Quem Sou Eu */}
-            <div className="order-1 lg:order-2">
+            <div className="order-1 lg:order-1">
               <div className="rounded-3xl overflow-hidden shadow-xl rotate-1 hover:rotate-0 transition-transform duration-500 border-8 border-white">
                  <img src={EXPERT_PHOTOS[0]} alt="Dra Elaynne atendendo" className="w-full h-auto object-cover" />
               </div>
